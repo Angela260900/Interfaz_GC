@@ -1,0 +1,93 @@
+.contents{
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.container-card{
+    display: flex;
+}
+
+.contents h2{
+    height: 50px;
+    text-align: left;
+    margin: 20px;
+    font-size: 28px;
+}
+
+.container-card div{
+    background-color: rgb(163, 137, 184);
+    margin: 5px;
+    width: 25%;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card div:hover{
+    background-color: rgb(123, 132, 170);
+    color: aliceblue;
+}
+
+.container-card img{
+    height: 150px;
+    width: 150px;
+}
+
+.container-card-2{
+    display: flex;
+  }
+
+.container-card-2 div{
+    height: 400px;
+    background-color: brown;
+    margin: 5px 5px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card-2 h2{
+    rotate: 270deg;
+}
+
+.card1 img{
+    height: 200px;
+    width: 300px;
+}
+
+.card1 img{
+    height: 350px;
+    width: 800px;
+    margin-right: 60px;
+}
+
+.card2 img{
+    height: 350px;
+    width: 350px;
+}
+
+.card2 img:hover{
+    animation: rotate 5s linear infinite;
+    height: 280px;
+    width: 280px;
+}
+
+.card1{
+    width: 60%;
+   }
+  
+   .card2{
+    width: 40%;
+   }
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}   
